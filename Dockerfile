@@ -1,4 +1,4 @@
-FROM rocker/r-ver:4.1.0
+FROM rocker/r-ver:latest
 WORKDIR /app
 COPY . .
 RUN apt-get update
